@@ -14,7 +14,6 @@ if 'ai_response' not in st.session_state:
 if 'model_answer' not in st.session_state:
     st.session_state['model_answer'] = ""
 
-#GEMINI_API_KEY = "AIzaSyBD1B061FXet285S_gARM_00K0DZE2_lHQ"
 # Pulls the key from Streamlit Cloud Secrets instead of your code
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=GEMINI_API_KEY)
@@ -107,4 +106,5 @@ if st.session_state.ai_response:
         st.subheader("Suggested Mark Scheme")
         st.write(st.session_state.model_answer)
         st.download_button("🟩 Save Answers (Word)", create_docx(st.session_state.model_answer, topic, "Answers"),
+
                            f"{topic}_Answers.docx")
