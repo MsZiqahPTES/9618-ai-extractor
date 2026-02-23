@@ -120,10 +120,10 @@ st.markdown(
             ✨ PTES 9618 Computer Science PYP Resource Portal ✨
         </p>
         <p style="font-size: 16px; font-weight: bold; letter-spacing: 0.5px;">
-            <span style="color: #FF0000;">🔴 Academically Excellence</span> | 
-            <span style="color: #FFD700;">🟡 Future Readiness</span> | 
-            <span style="color: #0070FF;">🔵 Digital & Integrity</span> | 
-            <span style="color: #28A745;">🟢 Holistic & Growth</span>
+            <span style="color: #FF0000;">🔴 By providing</span> | 
+            <span style="color: #FFD700;">🟡 Equal Opportunity</span> | 
+            <span style="color: #0070FF;">🔵 Quality Education</span> | 
+            <span style="color: #28A745;">🟢 Equipping 21st century Skills</span>
         </p>
         <p style="color: gray; font-size: 14px; margin-top: 10px;">
             Creator: Miss Hajah Nurul Haziqah HN (PTES CS Tutor)
@@ -134,3 +134,4 @@ st.markdown(
 )
 
 # --- FOOTER & VISITOR COUNTER ---
+
